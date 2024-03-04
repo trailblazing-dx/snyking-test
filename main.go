@@ -6,7 +6,7 @@ import (
 
 
 func main() {
-	password := "123345"
+	password := "12334567"
 	ret, err := os.ReadFile(password)
 	if err != nil {
 		return 
