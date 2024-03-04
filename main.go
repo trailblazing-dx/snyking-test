@@ -6,7 +6,7 @@ import (
 
 
 func main() {
-	password := "123345678"
+	password := os.Getenv("MYSQL_ROOT_PASSWORD")
 	ret, err := os.ReadFile(password)
 	if err != nil {
 		return 
